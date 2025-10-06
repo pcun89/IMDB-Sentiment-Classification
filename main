@@ -1,0 +1,21 @@
+# main_sentiment.py
+
+```python
+"""
+main_sentiment.py
+
+IMDB Sentiment Classification:
+- Loads IMDB dataset using Hugging Face `datasets`
+- Builds a sklearn Pipeline (TfidfVectorizer -> LogisticRegression)
+- Tunes hyperparameters with RandomizedSearchCV
+- Evaluates and saves the best pipeline
+
+Style:
+- camelCase for variable/function names
+- docstrings for functions
+- main() entrypoint
+- comments and minimal prints for clarity
+
+Usage:
+    python main_sentiment.py
+"""
